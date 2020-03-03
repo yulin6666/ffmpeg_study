@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E8AC461240BE37300E76197 /* ffmpeg-example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ffmpeg-example"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8AC461240BE37300E76197 /* ffmpeg-decode-mp4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ffmpeg-decode-mp4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8AC464240BE37300E76197 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5E8AC46C240BE44500E76197 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../../usr/local/lib/libavformat.a; sourceTree = "<group>"; };
 		5E8AC46E240BE4C500E76197 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../../usr/local/Cellar/ffmpeg/4.2.2/lib/libavformat.a; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		5E8AC462240BE37300E76197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E8AC461240BE37300E76197 /* ffmpeg-example */,
+				5E8AC461240BE37300E76197 /* ffmpeg-decode-mp4 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E8AC460240BE37300E76197 /* ffmpeg-example */ = {
+		5E8AC460240BE37300E76197 /* ffmpeg-decode-mp4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E8AC468240BE37300E76197 /* Build configuration list for PBXNativeTarget "ffmpeg-example" */;
+			buildConfigurationList = 5E8AC468240BE37300E76197 /* Build configuration list for PBXNativeTarget "ffmpeg-decode-mp4" */;
 			buildPhases = (
 				5E8AC45D240BE37300E76197 /* Sources */,
 				5E8AC45E240BE37300E76197 /* Frameworks */,
@@ -119,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = "ffmpeg-example";
+			name = "ffmpeg-decode-mp4";
 			productName = "ffmpeg-example";
-			productReference = 5E8AC461240BE37300E76197 /* ffmpeg-example */;
+			productReference = 5E8AC461240BE37300E76197 /* ffmpeg-decode-mp4 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E8AC45C240BE37300E76197 /* Build configuration list for PBXProject "ffmpeg-example" */;
+			buildConfigurationList = 5E8AC45C240BE37300E76197 /* Build configuration list for PBXProject "ffmpeg-decode-mp4" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E8AC460240BE37300E76197 /* ffmpeg-example */,
+				5E8AC460240BE37300E76197 /* ffmpeg-decode-mp4 */,
 			);
 		};
 /* End PBXProject section */
@@ -304,7 +304,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E8AC45C240BE37300E76197 /* Build configuration list for PBXProject "ffmpeg-example" */ = {
+		5E8AC45C240BE37300E76197 /* Build configuration list for PBXProject "ffmpeg-decode-mp4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E8AC466240BE37300E76197 /* Debug */,
@@ -313,7 +313,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E8AC468240BE37300E76197 /* Build configuration list for PBXNativeTarget "ffmpeg-example" */ = {
+		5E8AC468240BE37300E76197 /* Build configuration list for PBXNativeTarget "ffmpeg-decode-mp4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E8AC469240BE37300E76197 /* Debug */,

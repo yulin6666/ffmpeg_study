@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
 //打开文件
     AVFormatContext *pFormatContext;
     pFormatContext = avformat_alloc_context();//初始化一个AVFormatContext
-    char filepath[]="/Users/yulin9/Documents/project/mac/ffmpeg-example/ffmpeg-example/1.mp4";
+    char filepath[]="/Users/yulin9/Documents/project/mac/ffmpeg_study/ffmpeg-decode-mp4/ffmpeg-example/1.mp4";
     if(avformat_open_input(&pFormatContext,filepath,NULL,NULL)!=0){//打开输入的视频文件
         printf("Couldn't open input stream.\n");
         return -1;
@@ -165,7 +165,7 @@ std::cout << "decodec name: "<< codec->name<< std::endl;
                           avCodecContext->width,
                           avCodecContext->height,
                           1);
-     FILE * fileYUV420P = fopen("/Users/yulin9/Documents/project/mac/ffmpeg-example/ffmpeg-example/out.yuv","wb+");
+     FILE * fileYUV420P = fopen("/Users/yulin9/out.yuv","wb+");
      int currentIndex=0,ySize,uSize,vSize;
 
      while(av_read_frame(pFormatContext,avPacket) >=0)
