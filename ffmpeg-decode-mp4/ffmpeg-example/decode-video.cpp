@@ -44,7 +44,8 @@ int main(int argc, const char * argv[]) {
      *
     */
     int streamIndex =0,i;
-    for(i=0; i< streamIndex; i++)
+    int audioIndex = 0;
+    for(i=0; i< pFormatContext->nb_streams; i++)
     {
         // 判断流的类型
         // 旧的接口 formatContext->streams[i]->codec->codec_type
@@ -54,10 +55,10 @@ int main(int argc, const char * argv[]) {
         if(mediaType == AVMEDIA_TYPE_VIDEO)  //视频流
         {
             streamIndex =i;
-            break;
         }
         else if(mediaType == AVMEDIA_TYPE_AUDIO)
         {
+            audioIndex = i;
             //音频流
         }
         else
