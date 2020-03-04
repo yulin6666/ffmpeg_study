@@ -222,5 +222,16 @@ std::cout << "decodec name: "<< codec->name<< std::endl;
              }
          }
      }
-
+    
+    /*
+      * 关闭解码器
+      *
+     */
+     av_packet_free(&avPacket);
+     fclose(fileYUV420P);
+     av_frame_free(&avFrameIn);
+     av_frame_free(&pAVFrameYUV420P);
+     free(outBuffer);
+     avcodec_close(avCodecContext);
+     avformat_free_context(pFormatContext);
 }

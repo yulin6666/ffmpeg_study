@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E8AC465240BE37300E76197 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AC464240BE37300E76197 /* main.cpp */; };
+		5E8AC465240BE37300E76197 /* decode-video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AC464240BE37300E76197 /* decode-video.cpp */; };
 		5E8AC470240BFC8E00E76197 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8AC46E240BE4C500E76197 /* libavformat.a */; };
 		5E8AC472240C934400E76197 /* test.mp4 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E8AC471240C930200E76197 /* test.mp4 */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5E8AC474240CB57600E76197 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8AC473240CB57600E76197 /* libavcodec.a */; };
@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		5E8AC461240BE37300E76197 /* ffmpeg-decode-mp4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ffmpeg-decode-mp4"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E8AC464240BE37300E76197 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E8AC464240BE37300E76197 /* decode-video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "decode-video.cpp"; sourceTree = "<group>"; };
 		5E8AC46C240BE44500E76197 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../../usr/local/lib/libavformat.a; sourceTree = "<group>"; };
 		5E8AC46E240BE4C500E76197 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../../usr/local/Cellar/ffmpeg/4.2.2/lib/libavformat.a; sourceTree = "<group>"; };
 		5E8AC471240C930200E76197 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		5E8AC463240BE37300E76197 /* ffmpeg-example */ = {
 			isa = PBXGroup;
 			children = (
-				5E8AC464240BE37300E76197 /* main.cpp */,
+				5E8AC464240BE37300E76197 /* decode-video.cpp */,
 				5E8AC471240C930200E76197 /* test.mp4 */,
 			);
 			path = "ffmpeg-example";
@@ -161,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E8AC465240BE37300E76197 /* main.cpp in Sources */,
+				5E8AC465240BE37300E76197 /* decode-video.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
